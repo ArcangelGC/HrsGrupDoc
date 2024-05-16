@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_REGISTRO_DE_HORARIOS", "APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS.csproj", "{D599EABB-7784-466E-ABA3-574F34D91D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funciones", "Funciones\Funciones.csproj", "{8E261263-FF5E-43AC-A10F-150C6BC83443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D599EABB-7784-466E-ABA3-574F34D91D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D599EABB-7784-466E-ABA3-574F34D91D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D599EABB-7784-466E-ABA3-574F34D91D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D599EABB-7784-466E-ABA3-574F34D91D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E261263-FF5E-43AC-A10F-150C6BC83443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E261263-FF5E-43AC-A10F-150C6BC83443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E261263-FF5E-43AC-A10F-150C6BC83443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E261263-FF5E-43AC-A10F-150C6BC83443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25251C3F-E9E1-4DB5-A810-7FF9F83BC5C7}
+	EndGlobalSection
+EndGlobal
