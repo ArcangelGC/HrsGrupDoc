@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+
 
 namespace APP_REGISTRO_DE_HORARIOS
 {
@@ -30,13 +33,13 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void btn_Crear_H_Click(object sender, EventArgs e)
         {
-            
+
             Thread hiloCrearForm = new Thread(() =>
             {
                 CREAR_PARA crearForm = new CREAR_PARA();
                 crearForm.ShowDialog();
-                
-               
+
+
             });
             hiloCrearForm.Start();
         }

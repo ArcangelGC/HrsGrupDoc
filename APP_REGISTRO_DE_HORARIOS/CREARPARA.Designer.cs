@@ -59,9 +59,9 @@
             this.btn_DOC.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DOC.ForeColor = System.Drawing.Color.Black;
             this.btn_DOC.Location = new System.Drawing.Point(119, 78);
-            this.btn_DOC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_DOC.Margin = new System.Windows.Forms.Padding(2);
             this.btn_DOC.Name = "btn_DOC";
-            this.btn_DOC.Size = new System.Drawing.Size(88, 38);
+            this.btn_DOC.Size = new System.Drawing.Size(100, 40);
             this.btn_DOC.TabIndex = 1;
             this.btn_DOC.Text = "Docente";
             this.btn_DOC.UseVisualStyleBackColor = false;
@@ -75,9 +75,9 @@
             this.btn_GRUP.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_GRUP.ForeColor = System.Drawing.Color.Black;
             this.btn_GRUP.Location = new System.Drawing.Point(277, 78);
-            this.btn_GRUP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_GRUP.Margin = new System.Windows.Forms.Padding(2);
             this.btn_GRUP.Name = "btn_GRUP";
-            this.btn_GRUP.Size = new System.Drawing.Size(94, 38);
+            this.btn_GRUP.Size = new System.Drawing.Size(100, 40);
             this.btn_GRUP.TabIndex = 2;
             this.btn_GRUP.Text = "Grupo";
             this.btn_GRUP.UseVisualStyleBackColor = false;
@@ -87,7 +87,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(139, 121);
+            this.pictureBox1.Location = new System.Drawing.Point(145, 121);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(44, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,9 +97,11 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(302, 121);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(44, 38);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
@@ -114,7 +116,7 @@
             this.Controls.Add(this.btn_GRUP);
             this.Controls.Add(this.btn_DOC);
             this.Controls.Add(this.PARA);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CREAR_PARA";
             this.Text = "Crear";
             this.Load += new System.EventHandler(this.CREAR_PARA_Load);
