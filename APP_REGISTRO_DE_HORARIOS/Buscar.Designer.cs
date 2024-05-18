@@ -40,9 +40,10 @@
             // 
             // BuscD
             // 
+            this.BuscD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuscD.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BuscD.Location = new System.Drawing.Point(167, 160);
-            this.BuscD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BuscD.Margin = new System.Windows.Forms.Padding(2);
             this.BuscD.Name = "BuscD";
             this.BuscD.Size = new System.Drawing.Size(80, 39);
             this.BuscD.TabIndex = 0;
@@ -52,9 +53,10 @@
             // 
             // BGrupo
             // 
+            this.BGrupo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BGrupo.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BGrupo.Location = new System.Drawing.Point(330, 160);
-            this.BGrupo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BGrupo.Margin = new System.Windows.Forms.Padding(2);
             this.BGrupo.Name = "BGrupo";
             this.BGrupo.Size = new System.Drawing.Size(80, 39);
             this.BGrupo.TabIndex = 1;
@@ -108,7 +110,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BGrupo);
             this.Controls.Add(this.BuscD);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "buscarH";
             this.Text = "Buscar Horario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

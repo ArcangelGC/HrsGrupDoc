@@ -9,7 +9,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace APP_REGISTRO_DE_HORARIOS
 {
     public partial class PAG_PRIN : Form
@@ -29,7 +28,7 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         }
 
-        private void btn_Crear_H_Click(object sender, EventArgs e)
+        private void btn_Crear_D_Click(object sender, EventArgs e)
         {
 
             Thread hiloCrearForm = new Thread(() =>
@@ -43,7 +42,7 @@ namespace APP_REGISTRO_DE_HORARIOS
         }
 
 
-        private void btn_Buscar_H_Click(object sender, EventArgs e)
+        private void btn_Buscar_D_Click(object sender, EventArgs e)
         {
             // Crear un nuevo hilo para abrir el formulario de búsqueda.
             Thread hiloBuscarForm = new Thread(() =>
@@ -81,6 +80,11 @@ namespace APP_REGISTRO_DE_HORARIOS
         }
 
         private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
