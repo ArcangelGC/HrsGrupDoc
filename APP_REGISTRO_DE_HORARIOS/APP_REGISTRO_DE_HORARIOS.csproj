@@ -73,6 +73,9 @@
     <Compile Include="CREARPARA.Designer.cs">
       <DependentUpon>CREARPARA.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resources\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="_DOC.cs">
       <SubType>Form</SubType>
     </Compile>

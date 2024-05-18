@@ -79,5 +79,10 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
 
         }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
