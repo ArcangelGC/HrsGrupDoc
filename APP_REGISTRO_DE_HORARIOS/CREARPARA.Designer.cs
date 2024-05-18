@@ -41,12 +41,12 @@
             // PARA
             // 
             this.PARA.AutoSize = true;
-            this.PARA.Font = new System.Drawing.Font("Arial Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PARA.Font = new System.Drawing.Font("Anja Eliane", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PARA.ForeColor = System.Drawing.Color.White;
-            this.PARA.Location = new System.Drawing.Point(104, 28);
+            this.PARA.Location = new System.Drawing.Point(104, 32);
             this.PARA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PARA.Name = "PARA";
-            this.PARA.Size = new System.Drawing.Size(298, 31);
+            this.PARA.Size = new System.Drawing.Size(295, 26);
             this.PARA.TabIndex = 0;
             this.PARA.Text = "CREAR HORARIO PARA:";
             this.PARA.Click += new System.EventHandler(this.PARA_Click);

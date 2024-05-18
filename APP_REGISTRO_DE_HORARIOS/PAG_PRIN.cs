@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 
 
 namespace APP_REGISTRO_DE_HORARIOS

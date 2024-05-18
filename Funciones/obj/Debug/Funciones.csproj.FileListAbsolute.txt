@@ -1,0 +1,6 @@
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\bin\Debug\Funciones.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\bin\Debug\Funciones.pdb
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\obj\Debug\Funciones.csproj.AssemblyReference.cache
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\obj\Debug\Funciones.csproj.CoreCompileInputs.cache
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\obj\Debug\Funciones.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\Funciones\obj\Debug\Funciones.pdb

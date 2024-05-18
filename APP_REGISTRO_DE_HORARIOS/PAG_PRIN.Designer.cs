@@ -56,15 +56,18 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Anja Eliane", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(192, 150);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(742, 45);
+            this.label1.Size = new System.Drawing.Size(697, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "INSTITUTO TECNOLOGICO DE TLAXIACO";
+            this.label1.Text = "\"INSTITUTO TECNOLOGICO DE TLAXIACO\"";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
@@ -87,7 +90,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(415, 197);
+            this.pictureBox1.Location = new System.Drawing.Point(424, 197);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(312, 307);
@@ -112,12 +115,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Crear_H.BackColor = System.Drawing.Color.White;
             this.btn_Crear_H.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Crear_H.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Crear_H.FlatAppearance.BorderSize = 0;
             this.btn_Crear_H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Crear_H.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Crear_H.Font = new System.Drawing.Font("Anja Eliane", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Crear_H.ForeColor = System.Drawing.Color.Black;
             this.btn_Crear_H.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_Crear_H.Location = new System.Drawing.Point(499, 76);
+            this.btn_Crear_H.Location = new System.Drawing.Point(500, 68);
             this.btn_Crear_H.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Crear_H.Name = "btn_Crear_H";
             this.btn_Crear_H.Size = new System.Drawing.Size(140, 49);
@@ -138,13 +142,16 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Anja Eliane", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(17, 9);
+            this.label2.Location = new System.Drawing.Point(76, 35);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1000, 45);
+            this.label2.Size = new System.Drawing.Size(891, 35);
             this.label2.TabIndex = 6;
             this.label2.Text = "BIENVENIDOS AL SERVICIO DE NUESTRA INSTITUCION";
             this.label2.Click += new System.EventHandler(this.label2_Click);

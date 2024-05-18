@@ -151,40 +151,6 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-            string texto = ING_HORA.Text;
-
-
-            if (!string.IsNullOrEmpty(texto))
-            {
-                HORAS.Add(texto);
-            }
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            string texto = ING_MAT.Text;
-
-
-            if (!string.IsNullOrEmpty(texto))
-            {
-                MATER.Add(texto);
-            }
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            string texto = ING_AULA.Text;
-
-
-            if (!string.IsNullOrEmpty(texto))
-            {
-                AULA.Add(texto);
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
 
