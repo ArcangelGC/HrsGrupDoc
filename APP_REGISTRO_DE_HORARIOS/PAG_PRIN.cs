@@ -76,5 +76,10 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
