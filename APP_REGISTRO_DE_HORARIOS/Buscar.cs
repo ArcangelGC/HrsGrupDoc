@@ -41,5 +41,10 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
 
         }
+
+        private void buscarH_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

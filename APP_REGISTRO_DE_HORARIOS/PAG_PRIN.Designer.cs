@@ -41,7 +41,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Anja Eliane", 33.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(59, 56);
+            this.label3.Location = new System.Drawing.Point(52, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(1240, 50);
             this.label3.TabIndex = 0;
@@ -59,7 +59,7 @@
             this.btn_Crear_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Crear_D.Font = new System.Drawing.Font("Anja Eliane", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Crear_D.ForeColor = System.Drawing.Color.Black;
-            this.btn_Crear_D.Location = new System.Drawing.Point(593, 178);
+            this.btn_Crear_D.Location = new System.Drawing.Point(557, 178);
             this.btn_Crear_D.Name = "btn_Crear_D";
             this.btn_Crear_D.Size = new System.Drawing.Size(240, 108);
             this.btn_Crear_D.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Anja Eliane", 33.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(207, 354);
+            this.label4.Location = new System.Drawing.Point(173, 358);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(971, 50);
             this.label4.TabIndex = 4;
@@ -84,7 +84,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(577, 411);
+            this.pictureBox2.Location = new System.Drawing.Point(500, 411);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(372, 306);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
