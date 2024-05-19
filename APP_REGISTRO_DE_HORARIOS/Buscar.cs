@@ -28,7 +28,6 @@ namespace APP_REGISTRO_DE_HORARIOS
 
 
             crearForm.ShowDialog();
-            // Mostrar el mensaje usando MessageBox
             
         }
 
@@ -43,6 +42,11 @@ namespace APP_REGISTRO_DE_HORARIOS
         }
 
         private void buscarH_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BuscD_Click_1(object sender, EventArgs e)
         {
 
         }
