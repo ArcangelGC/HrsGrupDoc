@@ -20,7 +20,7 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void PARA_Click(object sender, EventArgs e)
         {
-
+            // Este evento está vacío, asegúrate de que esté vinculado correctamente en el diseñador si es necesario.
         }
 
         private void btn_DOC1_Click(object sender, EventArgs e)
@@ -45,7 +45,12 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void CREAR_PARA_Load(object sender, EventArgs e)
         {
+            // Este evento está vacío, asegúrate de que esté vinculado correctamente en el diseñador si es necesario.
+        }
 
+        private void btn_GRUP1_Click_1(object sender, EventArgs e)
+        {
+            // Este evento parece ser un duplicado de btn_GRUP1_Click
         }
     }
 }

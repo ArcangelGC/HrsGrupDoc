@@ -60,6 +60,7 @@
             this.BuscD.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.BuscD.BorderRadius = 20;
             this.BuscD.BorderSize = 0;
+            this.BuscD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BuscD.FlatAppearance.BorderSize = 0;
             this.BuscD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BuscD.Font = new System.Drawing.Font("Anja Eliane", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -80,6 +81,7 @@
             this.BGrupo.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.BGrupo.BorderRadius = 20;
             this.BGrupo.BorderSize = 0;
+            this.BGrupo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BGrupo.FlatAppearance.BorderSize = 0;
             this.BGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BGrupo.Font = new System.Drawing.Font("Anja Eliane", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

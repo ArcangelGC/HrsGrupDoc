@@ -93,6 +93,7 @@
             this.btn_GRUP1.Text = "Grupo";
             this.btn_GRUP1.TextColor = System.Drawing.Color.Black;
             this.btn_GRUP1.UseVisualStyleBackColor = false;
+            this.btn_GRUP1.Click += new System.EventHandler(this.btn_GRUP1_Click_1);
             // 
             // pictureBox1
             // 
