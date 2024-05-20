@@ -38,14 +38,7 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void btn_Buscar_H_Click(object sender, EventArgs e)
         {
-            // Crear un nuevo hilo para abrir el formulario de búsqueda.
-            Thread hiloBuscarForm = new Thread(() =>
-            {
-                buscarH crearForm = new buscarH();
-                crearForm.ShowDialog();
-            });
-
-            hiloBuscarForm.Start();
+            
         }
         private void AbrirFormulario<MiForm>() where MiForm : Form, new()
         {
@@ -99,6 +92,18 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_C_H_G_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<GRUPO>();
+            btn_C_H_G.BackColor = Color.FromArgb(12, 61, 92);
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

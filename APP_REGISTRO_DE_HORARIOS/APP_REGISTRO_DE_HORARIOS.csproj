@@ -55,6 +55,12 @@
     <Compile Include="Buscar.Designer.cs">
       <DependentUpon>Buscar.cs</DependentUpon>
     </Compile>
+    <Compile Include="CREAR_PARA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CREAR_PARA.Designer.cs">
+      <DependentUpon>CREAR_PARA.cs</DependentUpon>
+    </Compile>
     <Compile Include="GRUPO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Buscar.resx">
       <DependentUpon>Buscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CREAR_PARA.resx">
+      <DependentUpon>CREAR_PARA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GRUPO.resx">
       <DependentUpon>GRUPO.cs</DependentUpon>

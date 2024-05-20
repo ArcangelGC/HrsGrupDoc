@@ -35,9 +35,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelformularios = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_C_H_G = new System.Windows.Forms.Button();
             this.bttn_BUSCAR = new System.Windows.Forms.Button();
             this.btn_Crear_H = new System.Windows.Forms.Button();
-            this.btn_C_H_G = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -72,11 +73,12 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(96, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 97);
+            this.pictureBox1.Size = new System.Drawing.Size(110, 101);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -106,14 +108,30 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.btn_C_H_G);
-            this.panel3.Controls.Add(this.bttn_BUSCAR);
             this.panel3.Controls.Add(this.btn_Crear_H);
+            this.panel3.Controls.Add(this.bttn_BUSCAR);
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 523);
             this.panel3.TabIndex = 7;
+            // 
+            // btn_C_H_G
+            // 
+            this.btn_C_H_G.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_C_H_G.FlatAppearance.BorderSize = 0;
+            this.btn_C_H_G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_C_H_G.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_C_H_G.ForeColor = System.Drawing.Color.White;
+            this.btn_C_H_G.Location = new System.Drawing.Point(0, 177);
+            this.btn_C_H_G.Name = "btn_C_H_G";
+            this.btn_C_H_G.Size = new System.Drawing.Size(200, 75);
+            this.btn_C_H_G.TabIndex = 7;
+            this.btn_C_H_G.Text = "CREAR HORARIO PARA GRUPO";
+            this.btn_C_H_G.UseVisualStyleBackColor = true;
+            this.btn_C_H_G.Click += new System.EventHandler(this.btn_C_H_G_Click);
             // 
             // bttn_BUSCAR
             // 
@@ -122,7 +140,7 @@
             this.bttn_BUSCAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_BUSCAR.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttn_BUSCAR.ForeColor = System.Drawing.Color.White;
-            this.bttn_BUSCAR.Location = new System.Drawing.Point(0, 60);
+            this.bttn_BUSCAR.Location = new System.Drawing.Point(0, 53);
             this.bttn_BUSCAR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttn_BUSCAR.Name = "bttn_BUSCAR";
             this.bttn_BUSCAR.Size = new System.Drawing.Size(200, 64);
@@ -141,7 +159,7 @@
             this.btn_Crear_H.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Crear_H.ForeColor = System.Drawing.Color.White;
             this.btn_Crear_H.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_Crear_H.Location = new System.Drawing.Point(0, 0);
+            this.btn_Crear_H.Location = new System.Drawing.Point(0, 117);
             this.btn_Crear_H.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Crear_H.Name = "btn_Crear_H";
             this.btn_Crear_H.Size = new System.Drawing.Size(200, 60);
@@ -151,14 +169,19 @@
             this.btn_Crear_H.UseVisualStyleBackColor = false;
             this.btn_Crear_H.Click += new System.EventHandler(this.btn_Crear_H_Click);
             // 
-            // btn_C_H_G
+            // button1
             // 
-            this.btn_C_H_G.Location = new System.Drawing.Point(87, 191);
-            this.btn_C_H_G.Name = "btn_C_H_G";
-            this.btn_C_H_G.Size = new System.Drawing.Size(108, 75);
-            this.btn_C_H_G.TabIndex = 7;
-            this.btn_C_H_G.Text = "CREAR HORARIO PARA GRUPO";
-            this.btn_C_H_G.UseVisualStyleBackColor = true;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 53);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "BUSCAR HORARIO DE GRUPO";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // PAG_PRIN
             // 
@@ -191,6 +214,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelformularios;
         private System.Windows.Forms.Button btn_C_H_G;
+        private System.Windows.Forms.Button button1;
     }
 }
 
