@@ -33,3 +33,20 @@ C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\ob
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGI.3FE69533.Up2Date
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.exe
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.pdb
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.csproj.AssemblyReference.cache
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.buscarH.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.CREAR_PARA.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.GRUPO.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.PAG_PRIN.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.DOC.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.HORARIO.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.Properties.Resources.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.csproj.GenerateResource.cache
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.exe
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.pdb
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\bin\Debug\APP_REGISTRO_DE_HORARIOS.exe.config
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\bin\Debug\APP_REGISTRO_DE_HORARIOS.exe
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\bin\Debug\APP_REGISTRO_DE_HORARIOS.pdb
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\bin\Debug\Funciones.pdb
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.csproj.CopyComplete
