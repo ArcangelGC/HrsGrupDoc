@@ -127,5 +127,10 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

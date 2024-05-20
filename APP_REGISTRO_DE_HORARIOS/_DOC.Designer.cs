@@ -38,7 +38,7 @@
             this.CLAVDOC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_DIAS = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelf2 = new System.Windows.Forms.Panel();
             this.panel_DIAS.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -167,12 +167,12 @@
             this.panel_DIAS.Size = new System.Drawing.Size(725, 52);
             this.panel_DIAS.TabIndex = 6;
             // 
-            // panel1
+            // panelf2
             // 
-            this.panel1.Location = new System.Drawing.Point(46, 193);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(614, 429);
-            this.panel1.TabIndex = 7;
+            this.panelf2.Location = new System.Drawing.Point(46, 193);
+            this.panelf2.Name = "panelf2";
+            this.panelf2.Size = new System.Drawing.Size(614, 429);
+            this.panelf2.TabIndex = 7;
             // 
             // DOC
             // 
@@ -180,7 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(725, 702);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelf2);
             this.Controls.Add(this.btn_VIER);
             this.Controls.Add(this.BTN_LUN);
             this.Controls.Add(this.btn_JUEVES);
@@ -207,6 +207,6 @@
         private System.Windows.Forms.TextBox CLAVDOC;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel_DIAS;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelf2;
     }
 }

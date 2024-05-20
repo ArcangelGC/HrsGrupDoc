@@ -9,6 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using APP_REGISTRO_DE_HORARIOS.Resources;
 using Funciones;
 
 namespace APP_REGISTRO_DE_HORARIOS
@@ -29,19 +30,13 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void TEX_ING_NOM_Click(object sender, EventArgs e)
         {
-           
+
         }
         private void BTN_LUN_Click(object sender, EventArgs e)
         {
-            Thread hiloCrearForm = new Thread(() =>
-            {
-                HORARIO horForm = new HORARIO();
-
-
-                horForm.ShowDialog();
-            });
-
-            hiloCrearForm.Start();
+            AbrirFormulario<HORARIO>();
+            BTN_LUN.BackColor = Color.FromArgb(12, 61, 92);
+            
         }
 
         private void btn_VIER_Click(object sender, EventArgs e)
@@ -118,7 +113,7 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -128,13 +123,13 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void ING_NOM_DOC_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void CLAVE_DOC_TextChanged(object sender, EventArgs e)
         {
         }
-        
+
         public List<string> ObtenerNombres()
         {
             return NOM;
@@ -158,21 +153,21 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            
 
 
-            
+
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-           
-            
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -187,16 +182,16 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void AbrirFormulario<MiForm>() where MiForm : Form, new()
         {
             Form formulario;
-            formulario = panelformularios.Controls.OfType<MiForm>().FirstOrDefault();//Busca en la colecion el formulario
-                                                                                     //si el formulario/instancia existe
+            formulario = panelf2.Controls.OfType<MiForm>().FirstOrDefault();//Busca en la colecion el formulario
+                                                                            //si el formulario/instancia existe
             if (formulario == null)
             {
                 formulario = new MiForm();
                 formulario.TopLevel = false;
                 formulario.FormBorderStyle = FormBorderStyle.None;
                 formulario.Dock = DockStyle.Fill;
-                panelformularios.Controls.Add(formulario);
-                panelformularios.Tag = formulario;
+                panelf2.Controls.Add(formulario);
+                panelf2.Tag = formulario;
                 formulario.Show();
                 formulario.BringToFront();
                 formulario.FormClosed += new FormClosedEventHandler(CloseForms);
@@ -209,7 +204,15 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void CloseForms(object sender, FormClosedEventArgs e)
         {
             if (Application.OpenForms["Form1"] == null)
-                btn_Crear_H1.BackColor = Color.FromArgb(4, 41, 68);
+                BTN_LUN.BackColor = Color.FromArgb(4, 41, 68);
             if (Application.OpenForms["Form2"] == null)
+                btn_MARTES.BackColor = Color.FromArgb(4, 41, 68);
+            if (Application.OpenForms["Form1"] == null)
+                btn_MIER.BackColor = Color.FromArgb(4, 41, 68);
+            if (Application.OpenForms["Form1"] == null)
+                btn_JUEVES.BackColor = Color.FromArgb(4, 41, 68);
+            if (Application.OpenForms["Form1"] == null)
+                btn_VIER.BackColor = Color.FromArgb(4, 41, 68);
+        }
     }
 }
