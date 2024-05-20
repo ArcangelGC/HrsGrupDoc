@@ -32,7 +32,7 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
 
             AbrirFormulario<DOC>();
-            btn_Crear_H.BackColor = Color.FromArgb(12, 61, 92);
+            btn_Crear_H1.BackColor = Color.FromArgb(12, 61, 92);
         }
 
 
@@ -65,7 +65,7 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void CloseForms(object sender, FormClosedEventArgs e)
         {
             if (Application.OpenForms["Form1"] == null)
-                btn_Crear_H.BackColor = Color.FromArgb(4, 41, 68);
+                btn_Crear_H1.BackColor = Color.FromArgb(4, 41, 68);
             if (Application.OpenForms["Form2"] == null)
                 bttn_BUSCAR.BackColor = Color.FromArgb(4, 41, 68);
             
@@ -99,11 +99,26 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
         private void btn_C_H_G_Click(object sender, EventArgs e)
         {
             AbrirFormulario<GRUPO>();
-            btn_C_H_G.BackColor = Color.FromArgb(12, 61, 92);
+            rjButton1.BackColor = Color.FromArgb(12, 61, 92);
 
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Crear_H1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
 
         }

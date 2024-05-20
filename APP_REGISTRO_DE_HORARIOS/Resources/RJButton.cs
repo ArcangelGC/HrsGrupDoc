@@ -80,7 +80,6 @@ namespace APP_REGISTRO_DE_HORARIOS.Resources
             if (borderRadius > this.Height)
                 borderRadius = this.Height;
         }
-
         //Methods
         private GraphicsPath GetFigurePath(Rectangle rect, float radius)
         {
