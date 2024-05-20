@@ -18,8 +18,9 @@ namespace APP_REGISTRO_DE_HORARIOS
         private List<string> HORAS = new List<string>();
         private List<string> NOM = new List<string>();
         private List<string> rfcs = new List<string>();
-        private List<string> MATER = new List<string>();
-        private List<string> AULA = new List<string>();
+
+        public object ING_HORA { get; private set; }
+        public object ING_MAT { get; private set; }
 
         public DOC()
         {
@@ -122,16 +123,8 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string texto = ING_HORA.Text;
-
-
-            if (!string.IsNullOrEmpty(texto))
-            {
-                HORAS.Add(texto);
-            }
 
         }
-
 
         private void ING_NOM_DOC_TextChanged(object sender, EventArgs e)
         {
@@ -162,6 +155,26 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+
+
+            
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+           
+            
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -171,53 +184,5 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
 
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ING_HORA_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ING_MAT_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ING_AULA_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bTN_AÑA_HOR_Click(object sender, EventArgs e)
-        {
-            GuardarInformacion();
-            this.Close();
-        }
-
-        private void GuardarInformacion()
-
-        {
-            // Aquí puedes guardar la información en una lista o en cualquier otro lugar
-            // Por ejemplo, podrías agregar la información a las listas HORAS, MATER y AULA
-            // que has definido en tu formulario
-        }
-
-
-        private int numeroTextBox = 1;
-        private void btn_AÑA_MAT1_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void NuevoTextBox_TextChanged(object sender, EventArgs e)
-        {
-            TextBox textBox = sender as TextBox;
-            string texto = textBox.Text;
-
-        }
-
     }
 }

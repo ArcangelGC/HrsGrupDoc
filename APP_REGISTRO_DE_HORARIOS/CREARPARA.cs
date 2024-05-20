@@ -20,37 +20,37 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void PARA_Click(object sender, EventArgs e)
         {
-            // Este evento está vacío, asegúrate de que esté vinculado correctamente en el diseñador si es necesario.
+
         }
 
-        private void btn_DOC1_Click(object sender, EventArgs e)
-        {
-            Thread hiloCrearForm = new Thread(() =>
+        private void btn_DOC_Click(object sender, EventArgs e)
             {
-                DOC docForm = new DOC();
-                docForm.ShowDialog();
-            });
-            hiloCrearForm.Start();
-        }
+                Thread hiloCrearForm = new Thread(() =>
+                {
+                    DOC docForm = new DOC();
+                    docForm.ShowDialog();
 
-        private void btn_GRUP1_Click(object sender, EventArgs e)
+
+                });
+                hiloCrearForm.Start();
+            }
+
+            
+        private void button1_Click(object sender, EventArgs e)
         {
             Thread hiloCrearForm = new Thread(() =>
             {
                 GRUPO GRForm = new GRUPO();
                 GRForm.ShowDialog();
+
             });
             hiloCrearForm.Start();
+            
         }
 
         private void CREAR_PARA_Load(object sender, EventArgs e)
         {
-            // Este evento está vacío, asegúrate de que esté vinculado correctamente en el diseñador si es necesario.
-        }
 
-        private void btn_GRUP1_Click_1(object sender, EventArgs e)
-        {
-            // Este evento parece ser un duplicado de btn_GRUP1_Click
         }
     }
 }

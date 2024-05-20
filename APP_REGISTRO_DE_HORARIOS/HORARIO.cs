@@ -84,43 +84,37 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         private void btn_AÑA_MAT_Click(object sender, EventArgs e)
         {
-            // Crear un nuevo TextBox para materia
+            
             TextBox nuevoTextBoxMateria = new TextBox();
-            nuevoTextBoxMateria.Name = "ING_MAT_" + numeroTextBox; // Nombre único para el nuevo TextBox
-            nuevoTextBoxMateria.Location = new Point(ING_MAT.Location.X, ING_MAT.Location.Y + (numeroTextBox * 30)); // Ubicación relativa al TextBox original
-            nuevoTextBoxMateria.Size = ING_MAT.Size; // Tamaño igual al TextBox original
-
-            // Agregar el evento de cambio de texto
+            nuevoTextBoxMateria.Name = "ING_MAT_" + numeroTextBox; 
+            nuevoTextBoxMateria.Location = new Point(ING_MAT.Location.X, ING_MAT.Location.Y + (numeroTextBox * 30)); 
+            nuevoTextBoxMateria.Size = ING_MAT.Size; 
             nuevoTextBoxMateria.TextChanged += NuevoTextBox_TextChanged;
 
-            // Agregar el nuevo TextBox al formulario
+
             this.Controls.Add(nuevoTextBoxMateria);
 
-            // Crear un nuevo TextBox para hora
+           
             TextBox nuevoTextBoxHora = new TextBox();
-            nuevoTextBoxHora.Name = "ING_HORA_" + numeroTextBox; // Nombre único para el nuevo TextBox
-            nuevoTextBoxHora.Location = new Point(ING_HORA.Location.X, ING_HORA.Location.Y + (numeroTextBox * 30)); // Ubicación relativa al TextBox original
-            nuevoTextBoxHora.Size = ING_HORA.Size; // Tamaño igual al TextBox original
-
-            // Agregar el evento de cambio de texto
+            nuevoTextBoxHora.Name = "ING_HORA_" + numeroTextBox;
+            nuevoTextBoxHora.Location = new Point(ING_HORA.Location.X, ING_HORA.Location.Y + (numeroTextBox * 30)); 
+            
             nuevoTextBoxHora.TextChanged += NuevoTextBox_TextChanged;
 
-            // Agregar el nuevo TextBox al formulario
+           
             this.Controls.Add(nuevoTextBoxHora);
 
-            // Crear un nuevo TextBox para aula
+            
             TextBox nuevoTextBoxAula = new TextBox();
-            nuevoTextBoxAula.Name = "ING_AULA_" + numeroTextBox; // Nombre único para el nuevo TextBox
-            nuevoTextBoxAula.Location = new Point(ING_AULA.Location.X, ING_AULA.Location.Y + (numeroTextBox * 30)); // Ubicación relativa al TextBox original
-            nuevoTextBoxAula.Size = ING_AULA.Size; // Tamaño igual al TextBox original
-
-            // Agregar el evento de cambio de texto
+            nuevoTextBoxAula.Name = "ING_AULA_" + numeroTextBox; 
+            nuevoTextBoxAula.Location = new Point(ING_AULA.Location.X, ING_AULA.Location.Y + (numeroTextBox * 30)); 
+            nuevoTextBoxAula.Size = ING_AULA.Size; 
             nuevoTextBoxAula.TextChanged += NuevoTextBox_TextChanged;
 
-            // Agregar el nuevo TextBox al formulario
+           
             this.Controls.Add(nuevoTextBoxAula);
 
-            // Incrementar el contador de TextBox
+          
             numeroTextBox++;
         }
 
@@ -132,5 +126,9 @@ namespace APP_REGISTRO_DE_HORARIOS
             // Aquí puedes guardar la información en una lista o realizar cualquier otra acción
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

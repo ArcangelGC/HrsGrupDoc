@@ -61,32 +61,23 @@
     <Compile Include="GRUPO.Designer.cs">
       <DependentUpon>GRUPO.cs</DependentUpon>
     </Compile>
-    <Compile Include="HORARIO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HORARIO.Designer.cs">
-      <DependentUpon>HORARIO.cs</DependentUpon>
-    </Compile>
     <Compile Include="PAG_PRIN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PAG_PRIN.Designer.cs">
       <DependentUpon>PAG_PRIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="CREARPARA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CREARPARA.Designer.cs">
-      <DependentUpon>CREARPARA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\RJButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="_DOC.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="_DOC.Designer.cs">
       <DependentUpon>_DOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HORARIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HORARIO.Designer.cs">
+      <DependentUpon>HORARIO.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,17 +87,14 @@
     <EmbeddedResource Include="GRUPO.resx">
       <DependentUpon>GRUPO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HORARIO.resx">
-      <DependentUpon>HORARIO.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PAG_PRIN.resx">
       <DependentUpon>PAG_PRIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CREARPARA.resx">
-      <DependentUpon>CREARPARA.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="_DOC.resx">
       <DependentUpon>_DOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HORARIO.resx">
+      <DependentUpon>HORARIO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

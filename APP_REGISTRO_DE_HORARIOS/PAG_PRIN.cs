@@ -28,21 +28,15 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         }
 
-        private void btn_Crear_D_Click(object sender, EventArgs e)
+        private void btn_Crear_H_Click(object sender, EventArgs e)
         {
 
-            Thread hiloCrearForm = new Thread(() =>
-            {
-                CREAR_PARA crearForm = new CREAR_PARA();
-                crearForm.ShowDialog();
-
-
-            });
-            hiloCrearForm.Start();
+            AbrirFormulario<DOC>();
+            btn_Crear_H.BackColor = Color.FromArgb(12, 61, 92);
         }
 
 
-        private void btn_Buscar_D_Click(object sender, EventArgs e)
+        private void btn_Buscar_H_Click(object sender, EventArgs e)
         {
             // Crear un nuevo hilo para abrir el formulario de búsqueda.
             Thread hiloBuscarForm = new Thread(() =>
@@ -53,8 +47,38 @@ namespace APP_REGISTRO_DE_HORARIOS
 
             hiloBuscarForm.Start();
         }
+        private void AbrirFormulario<MiForm>() where MiForm : Form, new()
+        {
+            Form formulario;
+            formulario = panelformularios.Controls.OfType<MiForm>().FirstOrDefault();//Busca en la colecion el formulario
+                                                                                     //si el formulario/instancia existe
+            if (formulario == null)
+            {
+                formulario = new MiForm();
+                formulario.TopLevel = false;
+                formulario.FormBorderStyle = FormBorderStyle.None;
+                formulario.Dock = DockStyle.Fill;
+                panelformularios.Controls.Add(formulario);
+                panelformularios.Tag = formulario;
+                formulario.Show();
+                formulario.BringToFront();
+                formulario.FormClosed += new FormClosedEventHandler(CloseForms);
+            }
+            else
+            {
+                formulario.BringToFront();
+            }
+        }
+        private void CloseForms(object sender, FormClosedEventArgs e)
+        {
+            if (Application.OpenForms["Form1"] == null)
+                btn_Crear_H.BackColor = Color.FromArgb(4, 41, 68);
+            if (Application.OpenForms["Form2"] == null)
+                bttn_BUSCAR.BackColor = Color.FromArgb(4, 41, 68);
+            
+        }
 
-        private void btn_PAG_PRIN_Click(object sender, EventArgs e)
+private void btn_PAG_PRIN_Click(object sender, EventArgs e)
         {
 
         }
@@ -74,17 +98,7 @@ namespace APP_REGISTRO_DE_HORARIOS
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

@@ -28,122 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CREAR_PARA));
             this.PARA = new System.Windows.Forms.Label();
-            this.btn_DOC1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
-            this.btn_GRUP1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.btn_DOC = new System.Windows.Forms.Button();
+            this.btn_GRUP = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PARA
             // 
             this.PARA.AutoSize = true;
-            this.PARA.Font = new System.Drawing.Font("Anja Eliane", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PARA.Font = new System.Drawing.Font("Arial Black", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PARA.ForeColor = System.Drawing.Color.White;
-            this.PARA.Location = new System.Drawing.Point(129, 88);
-            this.PARA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.PARA.Location = new System.Drawing.Point(138, 35);
             this.PARA.Name = "PARA";
-            this.PARA.Size = new System.Drawing.Size(339, 30);
+            this.PARA.Size = new System.Drawing.Size(382, 40);
             this.PARA.TabIndex = 0;
             this.PARA.Text = "CREAR HORARIO PARA:";
             this.PARA.Click += new System.EventHandler(this.PARA_Click);
             // 
-            // btn_DOC1
+            // btn_DOC
             // 
-            this.btn_DOC1.BackColor = System.Drawing.Color.White;
-            this.btn_DOC1.BackgroundColor = System.Drawing.Color.White;
-            this.btn_DOC1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_DOC1.BorderRadius = 20;
-            this.btn_DOC1.BorderSize = 0;
-            this.btn_DOC1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_DOC1.FlatAppearance.BorderSize = 0;
-            this.btn_DOC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DOC1.Font = new System.Drawing.Font("Anja Eliane", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DOC1.ForeColor = System.Drawing.Color.Black;
-            this.btn_DOC1.Location = new System.Drawing.Point(118, 141);
-            this.btn_DOC1.Name = "btn_DOC1";
-            this.btn_DOC1.Size = new System.Drawing.Size(150, 40);
-            this.btn_DOC1.TabIndex = 5;
-            this.btn_DOC1.Text = "Docente";
-            this.btn_DOC1.TextColor = System.Drawing.Color.Black;
-            this.btn_DOC1.UseVisualStyleBackColor = false;
-            this.btn_DOC1.Click += new System.EventHandler(this.btn_DOC1_Click);
+            this.btn_DOC.FlatAppearance.BorderSize = 0;
+            this.btn_DOC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_DOC.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_DOC.ForeColor = System.Drawing.Color.White;
+            this.btn_DOC.Location = new System.Drawing.Point(171, 96);
+            this.btn_DOC.Name = "btn_DOC";
+            this.btn_DOC.Size = new System.Drawing.Size(118, 47);
+            this.btn_DOC.TabIndex = 1;
+            this.btn_DOC.Text = "Docente";
+            this.btn_DOC.UseVisualStyleBackColor = true;
+            this.btn_DOC.Click += new System.EventHandler(this.btn_DOC_Click);
             // 
-            // btn_GRUP1
+            // btn_GRUP
             // 
-            this.btn_GRUP1.BackColor = System.Drawing.Color.White;
-            this.btn_GRUP1.BackgroundColor = System.Drawing.Color.White;
-            this.btn_GRUP1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_GRUP1.BorderRadius = 20;
-            this.btn_GRUP1.BorderSize = 0;
-            this.btn_GRUP1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_GRUP1.FlatAppearance.BorderSize = 0;
-            this.btn_GRUP1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_GRUP1.Font = new System.Drawing.Font("Anja Eliane", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_GRUP1.ForeColor = System.Drawing.Color.Black;
-            this.btn_GRUP1.Location = new System.Drawing.Point(318, 141);
-            this.btn_GRUP1.Name = "btn_GRUP1";
-            this.btn_GRUP1.Size = new System.Drawing.Size(150, 40);
-            this.btn_GRUP1.TabIndex = 6;
-            this.btn_GRUP1.Text = "Grupo";
-            this.btn_GRUP1.TextColor = System.Drawing.Color.Black;
-            this.btn_GRUP1.UseVisualStyleBackColor = false;
-            this.btn_GRUP1.Click += new System.EventHandler(this.btn_GRUP1_Click_1);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, 307);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 61);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(145, 196);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(104, 80);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(360, 196);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
+            this.btn_GRUP.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_GRUP.FlatAppearance.BorderSize = 0;
+            this.btn_GRUP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_GRUP.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_GRUP.ForeColor = System.Drawing.Color.White;
+            this.btn_GRUP.Location = new System.Drawing.Point(369, 96);
+            this.btn_GRUP.Name = "btn_GRUP";
+            this.btn_GRUP.Size = new System.Drawing.Size(126, 47);
+            this.btn_GRUP.TabIndex = 2;
+            this.btn_GRUP.Text = "Grupo";
+            this.btn_GRUP.UseVisualStyleBackColor = false;
+            this.btn_GRUP.Click += new System.EventHandler(this.button1_Click);
             // 
             // CREAR_PARA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(604, 371);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btn_GRUP1);
-            this.Controls.Add(this.btn_DOC1);
+            this.ClientSize = new System.Drawing.Size(679, 215);
+            this.Controls.Add(this.btn_GRUP);
+            this.Controls.Add(this.btn_DOC);
             this.Controls.Add(this.PARA);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CREAR_PARA";
             this.Text = "Crear";
             this.Load += new System.EventHandler(this.CREAR_PARA_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,10 +94,7 @@
         #endregion
 
         private System.Windows.Forms.Label PARA;
-        private Resources.RJButton btn_DOC1;
-        private Resources.RJButton btn_GRUP1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btn_DOC;
+        private System.Windows.Forms.Button btn_GRUP;
     }
 }
