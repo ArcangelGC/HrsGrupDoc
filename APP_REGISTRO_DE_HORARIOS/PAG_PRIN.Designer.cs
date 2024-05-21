@@ -34,16 +34,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelformularios = new System.Windows.Forms.Panel();
-            this.btn_Crear_H1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bttn_BUSCAR = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.rjButton1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
+            this.rjButton4 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
+            this.btn_Crear_H1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
             this.btn_C_H_G = new System.Windows.Forms.Button();
             this.btn_Crear_H = new System.Windows.Forms.Button();
             this.rjButton2 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
             this.rjButton3 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
-            this.rjButton4 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
+            this.rjButton1 = new APP_REGISTRO_DE_HORARIOS.Resources.RJButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -109,25 +109,6 @@
             this.panelformularios.Size = new System.Drawing.Size(827, 425);
             this.panelformularios.TabIndex = 8;
             // 
-            // btn_Crear_H1
-            // 
-            this.btn_Crear_H1.BackColor = System.Drawing.Color.White;
-            this.btn_Crear_H1.BackgroundColor = System.Drawing.Color.White;
-            this.btn_Crear_H1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_Crear_H1.BorderRadius = 20;
-            this.btn_Crear_H1.BorderSize = 0;
-            this.btn_Crear_H1.FlatAppearance.BorderSize = 0;
-            this.btn_Crear_H1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Crear_H1.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Crear_H1.ForeColor = System.Drawing.Color.Black;
-            this.btn_Crear_H1.Location = new System.Drawing.Point(0, 297);
-            this.btn_Crear_H1.Name = "btn_Crear_H1";
-            this.btn_Crear_H1.Size = new System.Drawing.Size(143, 75);
-            this.btn_Crear_H1.TabIndex = 0;
-            this.btn_Crear_H1.TextColor = System.Drawing.Color.Black;
-            this.btn_Crear_H1.UseVisualStyleBackColor = false;
-            this.btn_Crear_H1.Click += new System.EventHandler(this.btn_Crear_H1_Click);
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.bttn_BUSCAR);
@@ -148,6 +129,7 @@
             // bttn_BUSCAR
             // 
             this.bttn_BUSCAR.BackColor = System.Drawing.Color.White;
+            this.bttn_BUSCAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bttn_BUSCAR.FlatAppearance.BorderSize = 0;
             this.bttn_BUSCAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttn_BUSCAR.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -164,6 +146,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -177,30 +160,47 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // rjButton1
+            // rjButton4
             // 
-            this.rjButton1.BackColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BorderColor = System.Drawing.Color.Empty;
-            this.rjButton1.BorderRadius = 40;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton1.ForeColor = System.Drawing.Color.Black;
-            this.rjButton1.Location = new System.Drawing.Point(127, 63);
-            this.rjButton1.Margin = new System.Windows.Forms.Padding(8);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(131, 40);
-            this.rjButton1.TabIndex = 1;
-            this.rjButton1.TextColor = System.Drawing.Color.Black;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            this.rjButton4.BackColor = System.Drawing.Color.White;
+            this.rjButton4.BackgroundColor = System.Drawing.Color.White;
+            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.rjButton4.BorderRadius = 20;
+            this.rjButton4.BorderSize = 0;
+            this.rjButton4.FlatAppearance.BorderSize = 0;
+            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton4.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton4.ForeColor = System.Drawing.Color.Black;
+            this.rjButton4.Location = new System.Drawing.Point(0, 214);
+            this.rjButton4.Name = "rjButton4";
+            this.rjButton4.Size = new System.Drawing.Size(143, 75);
+            this.rjButton4.TabIndex = 8;
+            this.rjButton4.TextColor = System.Drawing.Color.Black;
+            this.rjButton4.UseVisualStyleBackColor = false;
+            // 
+            // btn_Crear_H1
+            // 
+            this.btn_Crear_H1.BackColor = System.Drawing.Color.White;
+            this.btn_Crear_H1.BackgroundColor = System.Drawing.Color.White;
+            this.btn_Crear_H1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_Crear_H1.BorderRadius = 20;
+            this.btn_Crear_H1.BorderSize = 0;
+            this.btn_Crear_H1.FlatAppearance.BorderSize = 0;
+            this.btn_Crear_H1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Crear_H1.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Crear_H1.ForeColor = System.Drawing.Color.Black;
+            this.btn_Crear_H1.Location = new System.Drawing.Point(0, 297);
+            this.btn_Crear_H1.Name = "btn_Crear_H1";
+            this.btn_Crear_H1.Size = new System.Drawing.Size(143, 75);
+            this.btn_Crear_H1.TabIndex = 0;
+            this.btn_Crear_H1.TextColor = System.Drawing.Color.Black;
+            this.btn_Crear_H1.UseVisualStyleBackColor = false;
+            this.btn_Crear_H1.Click += new System.EventHandler(this.btn_Crear_H1_Click);
             // 
             // btn_C_H_G
             // 
             this.btn_C_H_G.BackColor = System.Drawing.Color.White;
+            this.btn_C_H_G.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_C_H_G.FlatAppearance.BorderSize = 0;
             this.btn_C_H_G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_C_H_G.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -218,6 +218,7 @@
             // 
             this.btn_Crear_H.BackColor = System.Drawing.Color.White;
             this.btn_Crear_H.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_Crear_H.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Crear_H.FlatAppearance.BorderSize = 0;
             this.btn_Crear_H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Crear_H.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,23 +270,26 @@
             this.rjButton3.TextColor = System.Drawing.Color.Black;
             this.rjButton3.UseVisualStyleBackColor = false;
             // 
-            // rjButton4
+            // rjButton1
             // 
-            this.rjButton4.BackColor = System.Drawing.Color.White;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.White;
-            this.rjButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.rjButton4.BorderRadius = 20;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjButton4.ForeColor = System.Drawing.Color.Black;
-            this.rjButton4.Location = new System.Drawing.Point(0, 214);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(143, 75);
-            this.rjButton4.TabIndex = 8;
-            this.rjButton4.TextColor = System.Drawing.Color.Black;
-            this.rjButton4.UseVisualStyleBackColor = false;
+            this.rjButton1.BackColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BorderColor = System.Drawing.Color.Empty;
+            this.rjButton1.BorderRadius = 40;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Anja Eliane", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton1.ForeColor = System.Drawing.Color.Black;
+            this.rjButton1.Location = new System.Drawing.Point(127, 63);
+            this.rjButton1.Margin = new System.Windows.Forms.Padding(8);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(131, 40);
+            this.rjButton1.TabIndex = 1;
+            this.rjButton1.TextColor = System.Drawing.Color.Black;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
             // 
             // PAG_PRIN
             // 
@@ -319,12 +323,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Resources.RJButton btn_Crear_H1;
-        private Resources.RJButton rjButton1;
         private System.Windows.Forms.Button btn_C_H_G;
         private System.Windows.Forms.Button btn_Crear_H;
         private Resources.RJButton rjButton2;
         private Resources.RJButton rjButton3;
         private Resources.RJButton rjButton4;
+        private Resources.RJButton rjButton1;
     }
 }
 
