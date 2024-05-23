@@ -174,5 +174,10 @@ namespace APP_REGISTRO_DE_HORARIOS
             if (Application.OpenForms["Form1"] == null)
                 btn_VIER.BackColor = Color.FromArgb(4, 41, 68);
         }
+
+        private void panelf2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
