@@ -43,7 +43,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(51, 42);
+            this.label1.Location = new System.Drawing.Point(46, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 24);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(216, 42);
+            this.label2.Location = new System.Drawing.Point(211, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 24);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(397, 42);
+            this.label3.Location = new System.Drawing.Point(392, 12);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 24);
             this.label3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // ING_HORA
             // 
-            this.ING_HORA.Location = new System.Drawing.Point(25, 79);
+            this.ING_HORA.Location = new System.Drawing.Point(20, 49);
             this.ING_HORA.Name = "ING_HORA";
             this.ING_HORA.Size = new System.Drawing.Size(117, 22);
             this.ING_HORA.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             // ING_MAT
             // 
-            this.ING_MAT.Location = new System.Drawing.Point(194, 79);
+            this.ING_MAT.Location = new System.Drawing.Point(189, 49);
             this.ING_MAT.Name = "ING_MAT";
             this.ING_MAT.Size = new System.Drawing.Size(132, 22);
             this.ING_MAT.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             // ING_AULA
             // 
-            this.ING_AULA.Location = new System.Drawing.Point(379, 79);
+            this.ING_AULA.Location = new System.Drawing.Point(374, 49);
             this.ING_AULA.Name = "ING_AULA";
             this.ING_AULA.Size = new System.Drawing.Size(100, 22);
             this.ING_AULA.TabIndex = 5;
@@ -102,7 +102,7 @@
             this.bTN_AÑA_HOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTN_AÑA_HOR.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bTN_AÑA_HOR.ForeColor = System.Drawing.Color.White;
-            this.bTN_AÑA_HOR.Location = new System.Drawing.Point(494, 101);
+            this.bTN_AÑA_HOR.Location = new System.Drawing.Point(489, 71);
             this.bTN_AÑA_HOR.Name = "bTN_AÑA_HOR";
             this.bTN_AÑA_HOR.Size = new System.Drawing.Size(122, 51);
             this.bTN_AÑA_HOR.TabIndex = 6;
@@ -113,7 +113,7 @@
             // btn_AÑA_MAT
             // 
             this.btn_AÑA_MAT.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_AÑA_MAT.Location = new System.Drawing.Point(527, 79);
+            this.btn_AÑA_MAT.Location = new System.Drawing.Point(522, 49);
             this.btn_AÑA_MAT.Name = "btn_AÑA_MAT";
             this.btn_AÑA_MAT.Size = new System.Drawing.Size(49, 29);
             this.btn_AÑA_MAT.TabIndex = 7;
@@ -126,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(685, 354);
+            this.ClientSize = new System.Drawing.Size(600, 354);
             this.Controls.Add(this.btn_AÑA_MAT);
             this.Controls.Add(this.bTN_AÑA_HOR);
             this.Controls.Add(this.ING_AULA);
