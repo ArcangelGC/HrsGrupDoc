@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|c:\\users\\arcax\\source\\repos\\app_registro_de_horarios\\app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|c:\\users\\arcax\\source\\repos\\app_registro_de_horarios\\app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_DOC.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
               "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PAG_PRIN.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\PAG_PRIN.cs",
               "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\PAG_PRIN.cs",
