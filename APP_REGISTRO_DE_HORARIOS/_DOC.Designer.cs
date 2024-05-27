@@ -50,7 +50,7 @@
             this.BTN_LUN.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_LUN.ForeColor = System.Drawing.Color.White;
             this.BTN_LUN.Location = new System.Drawing.Point(25, 64);
-            this.BTN_LUN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BTN_LUN.Margin = new System.Windows.Forms.Padding(2);
             this.BTN_LUN.Name = "BTN_LUN";
             this.BTN_LUN.Size = new System.Drawing.Size(64, 42);
             this.BTN_LUN.TabIndex = 1;
@@ -64,8 +64,8 @@
             this.btn_JUEVES.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_JUEVES.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_JUEVES.ForeColor = System.Drawing.Color.White;
-            this.btn_JUEVES.Location = new System.Drawing.Point(300, 64);
-            this.btn_JUEVES.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_JUEVES.Location = new System.Drawing.Point(322, 64);
+            this.btn_JUEVES.Margin = new System.Windows.Forms.Padding(2);
             this.btn_JUEVES.Name = "btn_JUEVES";
             this.btn_JUEVES.Size = new System.Drawing.Size(80, 42);
             this.btn_JUEVES.TabIndex = 2;
@@ -79,8 +79,8 @@
             this.btn_VIER.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_VIER.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_VIER.ForeColor = System.Drawing.Color.White;
-            this.btn_VIER.Location = new System.Drawing.Point(418, 64);
-            this.btn_VIER.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_VIER.Location = new System.Drawing.Point(433, 64);
+            this.btn_VIER.Margin = new System.Windows.Forms.Padding(2);
             this.btn_VIER.Name = "btn_VIER";
             this.btn_VIER.Size = new System.Drawing.Size(76, 42);
             this.btn_VIER.TabIndex = 3;
@@ -97,7 +97,7 @@
             this.btn_MIER.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MIER.ForeColor = System.Drawing.Color.White;
             this.btn_MIER.Location = new System.Drawing.Point(190, 64);
-            this.btn_MIER.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_MIER.Margin = new System.Windows.Forms.Padding(2);
             this.btn_MIER.Name = "btn_MIER";
             this.btn_MIER.Size = new System.Drawing.Size(94, 42);
             this.btn_MIER.TabIndex = 4;
@@ -113,7 +113,7 @@
             this.btn_MARTES.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MARTES.ForeColor = System.Drawing.Color.White;
             this.btn_MARTES.Location = new System.Drawing.Point(103, 64);
-            this.btn_MARTES.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_MARTES.Margin = new System.Windows.Forms.Padding(2);
             this.btn_MARTES.Name = "btn_MARTES";
             this.btn_MARTES.Size = new System.Drawing.Size(74, 42);
             this.btn_MARTES.TabIndex = 5;
@@ -137,18 +137,18 @@
             // NOMDOC
             // 
             this.NOMDOC.Location = new System.Drawing.Point(392, 7);
-            this.NOMDOC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NOMDOC.Margin = new System.Windows.Forms.Padding(2);
             this.NOMDOC.Name = "NOMDOC";
-            this.NOMDOC.Size = new System.Drawing.Size(104, 20);
+            this.NOMDOC.Size = new System.Drawing.Size(117, 20);
             this.NOMDOC.TabIndex = 4;
             this.NOMDOC.TextChanged += new System.EventHandler(this.ING_NOM_DOC_TextChanged);
             // 
             // CLAVDOC
             // 
             this.CLAVDOC.Location = new System.Drawing.Point(165, 10);
-            this.CLAVDOC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLAVDOC.Margin = new System.Windows.Forms.Padding(2);
             this.CLAVDOC.Name = "CLAVDOC";
-            this.CLAVDOC.Size = new System.Drawing.Size(104, 20);
+            this.CLAVDOC.Size = new System.Drawing.Size(119, 20);
             this.CLAVDOC.TabIndex = 2;
             this.CLAVDOC.TextChanged += new System.EventHandler(this.CLAVE_DOC_TextChanged);
             // 
@@ -172,15 +172,15 @@
             this.panel_DIAS.Controls.Add(this.TEX_ING_NOM);
             this.panel_DIAS.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_DIAS.Location = new System.Drawing.Point(0, 0);
-            this.panel_DIAS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_DIAS.Margin = new System.Windows.Forms.Padding(2);
             this.panel_DIAS.Name = "panel_DIAS";
-            this.panel_DIAS.Size = new System.Drawing.Size(544, 42);
+            this.panel_DIAS.Size = new System.Drawing.Size(562, 42);
             this.panel_DIAS.TabIndex = 6;
             // 
             // panelf2
             // 
             this.panelf2.Location = new System.Drawing.Point(35, 138);
-            this.panelf2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelf2.Margin = new System.Windows.Forms.Padding(2);
             this.panelf2.Name = "panelf2";
             this.panelf2.Size = new System.Drawing.Size(460, 349);
             this.panelf2.TabIndex = 7;
@@ -191,7 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(544, 570);
+            this.ClientSize = new System.Drawing.Size(562, 570);
             this.Controls.Add(this.panelf2);
             this.Controls.Add(this.btn_VIER);
             this.Controls.Add(this.BTN_LUN);
@@ -199,7 +199,7 @@
             this.Controls.Add(this.btn_MIER);
             this.Controls.Add(this.panel_DIAS);
             this.Controls.Add(this.btn_MARTES);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DOC";
             this.Text = "Registro para docente";
             this.Load += new System.EventHandler(this.Form1_Load);

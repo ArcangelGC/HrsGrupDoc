@@ -78,7 +78,7 @@
             // ING_HORA
             // 
             this.ING_HORA.Location = new System.Drawing.Point(15, 40);
-            this.ING_HORA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ING_HORA.Margin = new System.Windows.Forms.Padding(2);
             this.ING_HORA.Name = "ING_HORA";
             this.ING_HORA.Size = new System.Drawing.Size(89, 20);
             this.ING_HORA.TabIndex = 3;
@@ -87,7 +87,7 @@
             // ING_MAT
             // 
             this.ING_MAT.Location = new System.Drawing.Point(142, 40);
-            this.ING_MAT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ING_MAT.Margin = new System.Windows.Forms.Padding(2);
             this.ING_MAT.Name = "ING_MAT";
             this.ING_MAT.Size = new System.Drawing.Size(100, 20);
             this.ING_MAT.TabIndex = 4;
@@ -96,7 +96,7 @@
             // ING_AULA
             // 
             this.ING_AULA.Location = new System.Drawing.Point(280, 40);
-            this.ING_AULA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ING_AULA.Margin = new System.Windows.Forms.Padding(2);
             this.ING_AULA.Name = "ING_AULA";
             this.ING_AULA.Size = new System.Drawing.Size(76, 20);
             this.ING_AULA.TabIndex = 5;
@@ -104,24 +104,25 @@
             // 
             // bTN_AÑA_HOR
             // 
+            this.bTN_AÑA_HOR.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.bTN_AÑA_HOR.FlatAppearance.BorderSize = 0;
             this.bTN_AÑA_HOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bTN_AÑA_HOR.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bTN_AÑA_HOR.ForeColor = System.Drawing.Color.White;
-            this.bTN_AÑA_HOR.Location = new System.Drawing.Point(347, 236);
-            this.bTN_AÑA_HOR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bTN_AÑA_HOR.ForeColor = System.Drawing.Color.Black;
+            this.bTN_AÑA_HOR.Location = new System.Drawing.Point(337, 220);
+            this.bTN_AÑA_HOR.Margin = new System.Windows.Forms.Padding(2);
             this.bTN_AÑA_HOR.Name = "bTN_AÑA_HOR";
             this.bTN_AÑA_HOR.Size = new System.Drawing.Size(92, 41);
             this.bTN_AÑA_HOR.TabIndex = 6;
             this.bTN_AÑA_HOR.Text = "GUARDAR";
-            this.bTN_AÑA_HOR.UseVisualStyleBackColor = true;
+            this.bTN_AÑA_HOR.UseVisualStyleBackColor = false;
             this.bTN_AÑA_HOR.Click += new System.EventHandler(this.bTN_AÑA_HOR_Click);
             // 
             // btn_AÑA_MAT
             // 
             this.btn_AÑA_MAT.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AÑA_MAT.Location = new System.Drawing.Point(392, 40);
-            this.btn_AÑA_MAT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_AÑA_MAT.Margin = new System.Windows.Forms.Padding(2);
             this.btn_AÑA_MAT.Name = "btn_AÑA_MAT";
             this.btn_AÑA_MAT.Size = new System.Drawing.Size(37, 24);
             this.btn_AÑA_MAT.TabIndex = 7;
@@ -143,7 +144,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "HORARIO";
             this.Text = "Registro de clases";
             this.Load += new System.EventHandler(this.HORARIO_Load);

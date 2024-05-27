@@ -67,7 +67,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(35, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,9 +82,9 @@
             this.label1.Location = new System.Drawing.Point(190, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(742, 45);
+            this.label1.Size = new System.Drawing.Size(774, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "INSTITUTO TECNOLOGICO DE TLAXIACO";
+            this.label1.Text = "\"INSTITUTO TECNOLOGICO DE TLAXIACO\"";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
