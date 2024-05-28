@@ -67,3 +67,5 @@ C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\AP
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.csproj.CopyComplete
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.exe
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.pdb
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.buscarhg.resources
+C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.BUSCARHDcs.resources

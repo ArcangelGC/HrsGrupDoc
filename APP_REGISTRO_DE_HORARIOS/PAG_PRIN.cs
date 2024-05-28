@@ -93,7 +93,8 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            AbrirFormulario<BUSCARHDcs>();
+            rjButton1.BackColor = Color.FromArgb(12, 61, 92);
         }
 
         private void btn_C_H_G_Click(object sender, EventArgs e)
@@ -120,7 +121,8 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            AbrirFormulario<buscarhg>();
+            BTN_BHG.BackColor = Color.FromArgb(12, 61, 92);
         }
 
         private void panelformularios_Paint(object sender, PaintEventArgs e)

@@ -55,6 +55,18 @@
     <Compile Include="Buscar.Designer.cs">
       <DependentUpon>Buscar.cs</DependentUpon>
     </Compile>
+    <Compile Include="BUSCARHDcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BUSCARHDcs.Designer.cs">
+      <DependentUpon>BUSCARHDcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buscarhg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarhg.Designer.cs">
+      <DependentUpon>buscarhg.cs</DependentUpon>
+    </Compile>
     <Compile Include="CREAR_PARA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Buscar.resx">
       <DependentUpon>Buscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BUSCARHDcs.resx">
+      <DependentUpon>BUSCARHDcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscarhg.resx">
+      <DependentUpon>buscarhg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CREAR_PARA.resx">
       <DependentUpon>CREAR_PARA.cs</DependentUpon>
