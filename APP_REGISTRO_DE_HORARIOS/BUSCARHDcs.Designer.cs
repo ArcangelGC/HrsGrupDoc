@@ -46,7 +46,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(198, 26);
+            this.textBox1.Location = new System.Drawing.Point(204, 26);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(143, 22);
             this.textBox1.TabIndex = 1;
@@ -54,7 +54,7 @@
             // bttn_BD
             // 
             this.bttn_BD.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttn_BD.Location = new System.Drawing.Point(370, 28);
+            this.bttn_BD.Location = new System.Drawing.Point(381, 28);
             this.bttn_BD.Name = "bttn_BD";
             this.bttn_BD.Size = new System.Drawing.Size(99, 33);
             this.bttn_BD.TabIndex = 2;
