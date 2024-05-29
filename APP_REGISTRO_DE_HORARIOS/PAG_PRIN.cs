@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
 
 namespace APP_REGISTRO_DE_HORARIOS
 {
@@ -17,6 +19,7 @@ namespace APP_REGISTRO_DE_HORARIOS
         {
             InitializeComponent();
         }
+        private string conection = "server = localhost; port=3306; uid=root;pwd=''; database = horarios";
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -131,6 +134,48 @@ private void btn_PAG_PRIN_Click(object sender, EventArgs e)
         }
 
         private void rjButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void rjButton5_Click(object sender, EventArgs e)
+        {
+            string conection = " server =localhost; port = 3306 ; uid=root; pwd=''; database= horarios  ; "; // declaro un objeto el cual enlaza 
+            MySqlConnection conect = new MySqlConnection(conection);
+            try
+            {
+                conect.Open();
+                MessageBox.Show(" Se ha conectado correctamente a tu base de datos");
+                conect.Close();
+            }
+            catch
+            {
+                MessageBox.Show(" error en concetarse a la base de datos");
+            }
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void rjButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton3_Click(object sender, EventArgs e)
         {
 
         }

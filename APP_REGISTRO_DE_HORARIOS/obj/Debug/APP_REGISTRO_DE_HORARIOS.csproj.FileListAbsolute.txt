@@ -74,3 +74,9 @@ C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\AP
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.BUSCARHDcs.resources
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.buscarhg.resources
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.VerDatos.resources
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\MySql.Data.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Memory.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Buffers.dll
+C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\MySql.Data.xml
