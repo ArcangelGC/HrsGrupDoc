@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\verdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\verdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|c:\\users\\arcax\\source\\repos\\app_registro_de_horarios\\app_registro_de_horarios\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\buscarhdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\buscarhdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|c:\\users\\arcax\\source\\repos\\app_registro_de_horarios\\app_registro_de_horarios\\buscarhdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\buscarhdcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\pag_prin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D599EABB-7784-466E-ABA3-574F34D91D15}|APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS.csproj|solutionrelative:app_registro_de_horarios\\_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,57 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HORARIO.cs",
-              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAAAIIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:40:59.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_DOC.cs",
               "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
               "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
               "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
               "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
-              "ViewState": "AQIAAKgAAAAAAAAAAAD4v7MAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T18:36:43.451Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HORARIO.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
-              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:33:34.133Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_DOC.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
-              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\_DOC.cs",
-              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\_DOC.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\_DOC.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T16:57:55.139Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -91,7 +59,59 @@
               "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\PAG_PRIN.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\PAG_PRIN.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T01:55:00.714Z"
+              "WhenOpened": "2024-05-19T01:55:00.714Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VerDatos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\VerDatos.cs",
+              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\VerDatos.cs",
+              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\VerDatos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\VerDatos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:49:49.918Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HORARIO.cs",
+              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
+              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
+              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
+              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\HORARIO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:14:50.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BUSCARHDcs.cs",
+              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:09:07.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BUSCARHDcs.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "RelativeDocumentMoniker": "APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs",
+              "ToolTip": "C:\\Users\\arcax\\source\\repos\\APP_REGISTRO_DE_HORARIOS\\APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs [Dise\u00F1o]",
+              "RelativeToolTip": "APP_REGISTRO_DE_HORARIOS\\BUSCARHDcs.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:49:38.229Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-
 namespace APP_REGISTRO_DE_HORARIOS
 {
     public partial class HORARIO : Form
@@ -45,7 +44,7 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void bTN_AÑA_HOR_Click(object sender, EventArgs e)
         {
             GuardarInformacion();
-            this.Close();
+            AbrirFormularioVerDatos();
         }
 
         private void GuardarInformacion()
@@ -145,6 +144,16 @@ namespace APP_REGISTRO_DE_HORARIOS
         private void label1_Click(object sender, EventArgs e)
         {
             // Código para el evento Click del label1
+        }
+
+        private void AbrirFormularioVerDatos()
+        {
+            List<string> horas = new List<string>(HORAS);
+            List<string> materias = new List<string>(MATER);
+            List<string> aulas = new List<string>(AULA);
+
+            VerDatos formVerDatos = new VerDatos(horas, materias, aulas);
+            formVerDatos.Show();
         }
     }
 }

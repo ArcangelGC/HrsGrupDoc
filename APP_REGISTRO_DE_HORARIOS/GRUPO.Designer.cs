@@ -38,6 +38,7 @@
             this.btn_VIE_A = new System.Windows.Forms.Button();
             this.btn_MIE_A = new System.Windows.Forms.Button();
             this.btn_LUN_A = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,8 +50,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(843, 61);
+            this.panel1.Size = new System.Drawing.Size(1089, 62);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -64,7 +66,7 @@
             "INGENIERIA INDUSTRIAL",
             "LICENCIATURA EN ADMINISTRACION",
             "LICENCIATURA EN ARQUITECTURA"});
-            this.comboBox1.Location = new System.Drawing.Point(594, 14);
+            this.comboBox1.Location = new System.Drawing.Point(693, 14);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(1);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(181, 24);
@@ -76,7 +78,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(452, 10);
+            this.label2.Location = new System.Drawing.Point(495, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(127, 36);
             this.label2.TabIndex = 4;
@@ -86,8 +88,9 @@
             // CLVG
             // 
             this.CLVG.Location = new System.Drawing.Point(245, 16);
+            this.CLVG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CLVG.Name = "CLVG";
-            this.CLVG.Size = new System.Drawing.Size(154, 22);
+            this.CLVG.Size = new System.Drawing.Size(168, 22);
             this.CLVG.TabIndex = 2;
             this.CLVG.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -108,7 +111,8 @@
             this.btn_MAR_A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MAR_A.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MAR_A.ForeColor = System.Drawing.Color.White;
-            this.btn_MAR_A.Location = new System.Drawing.Point(193, 106);
+            this.btn_MAR_A.Location = new System.Drawing.Point(245, 106);
+            this.btn_MAR_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_MAR_A.Name = "btn_MAR_A";
             this.btn_MAR_A.Size = new System.Drawing.Size(135, 39);
             this.btn_MAR_A.TabIndex = 2;
@@ -122,7 +126,8 @@
             this.btn_JUE_A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_JUE_A.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_JUE_A.ForeColor = System.Drawing.Color.White;
-            this.btn_JUE_A.Location = new System.Drawing.Point(481, 106);
+            this.btn_JUE_A.Location = new System.Drawing.Point(664, 106);
+            this.btn_JUE_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_JUE_A.Name = "btn_JUE_A";
             this.btn_JUE_A.Size = new System.Drawing.Size(135, 39);
             this.btn_JUE_A.TabIndex = 3;
@@ -136,7 +141,8 @@
             this.btn_VIE_A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_VIE_A.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_VIE_A.ForeColor = System.Drawing.Color.White;
-            this.btn_VIE_A.Location = new System.Drawing.Point(622, 106);
+            this.btn_VIE_A.Location = new System.Drawing.Point(865, 106);
+            this.btn_VIE_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_VIE_A.Name = "btn_VIE_A";
             this.btn_VIE_A.Size = new System.Drawing.Size(135, 39);
             this.btn_VIE_A.TabIndex = 4;
@@ -150,7 +156,8 @@
             this.btn_MIE_A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_MIE_A.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_MIE_A.ForeColor = System.Drawing.Color.White;
-            this.btn_MIE_A.Location = new System.Drawing.Point(355, 106);
+            this.btn_MIE_A.Location = new System.Drawing.Point(469, 106);
+            this.btn_MIE_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_MIE_A.Name = "btn_MIE_A";
             this.btn_MIE_A.Size = new System.Drawing.Size(135, 39);
             this.btn_MIE_A.TabIndex = 5;
@@ -165,6 +172,7 @@
             this.btn_LUN_A.Font = new System.Drawing.Font("Arial Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_LUN_A.ForeColor = System.Drawing.Color.White;
             this.btn_LUN_A.Location = new System.Drawing.Point(33, 106);
+            this.btn_LUN_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_LUN_A.Name = "btn_LUN_A";
             this.btn_LUN_A.Size = new System.Drawing.Size(135, 39);
             this.btn_LUN_A.TabIndex = 1;
@@ -172,18 +180,28 @@
             this.btn_LUN_A.UseVisualStyleBackColor = true;
             this.btn_LUN_A.Click += new System.EventHandler(this.btn_LUN_A_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(33, 151);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(967, 278);
+            this.panel2.TabIndex = 6;
+            // 
             // GRUPO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(843, 171);
+            this.ClientSize = new System.Drawing.Size(1089, 476);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btn_LUN_A);
             this.Controls.Add(this.btn_MAR_A);
             this.Controls.Add(this.btn_MIE_A);
             this.Controls.Add(this.btn_VIE_A);
             this.Controls.Add(this.btn_JUE_A);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GRUPO";
             this.Text = "Registro para grupo";
             this.panel1.ResumeLayout(false);
@@ -204,5 +222,6 @@
         private System.Windows.Forms.Button btn_VIE_A;
         private System.Windows.Forms.Button btn_MIE_A;
         private System.Windows.Forms.Button btn_LUN_A;
+        private System.Windows.Forms.Panel panel2;
     }
 }
