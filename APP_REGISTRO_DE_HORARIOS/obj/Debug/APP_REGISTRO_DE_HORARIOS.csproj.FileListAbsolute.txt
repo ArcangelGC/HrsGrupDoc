@@ -69,6 +69,7 @@ C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\AP
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.pdb
 C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.buscarhg.resources
 C:\Users\Kevin\Documents\Proyecto app hor\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.BUSCARHDcs.resources
+<<<<<<< HEAD
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.BUSCARHDcs.resources
 C:\Users\LATITUDE E5450\Desktop\HrsGrupDoc\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.buscarhg.resources
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\obj\Debug\APP_REGISTRO_DE_HORARIOS.BUSCARHDcs.resources
@@ -80,3 +81,5 @@ C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bi
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\System.Buffers.dll
 C:\Users\arcax\source\repos\APP_REGISTRO_DE_HORARIOS\APP_REGISTRO_DE_HORARIOS\bin\Debug\MySql.Data.xml
+=======
+>>>>>>> 767100ef844db82bfd2c677f0bc8547ea2d05698
